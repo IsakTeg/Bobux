@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/grid.css"/>
+    <title>Bistro Bobux</title>
+    <script>
+      function toggleMenu() {
+        let menu = document.getElementById("links");
+        if (menu.style.width === "0px") {
+          menu.style.width = "7rem";
+        } else {
+          menu.style.width = "0px";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Bistro Bobux</h1>
+      </header>
+      <nav>
+        <div id="links" style="width: 0px">
+          <a href="meny.html">Meny</a>
+          <a href="omoss.html">Om oss</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+  </body>
+</html>
