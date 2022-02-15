@@ -6,34 +6,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/grid.css"/>
     <title>Bistro Bobux</title>
-    <script>
-      function toggleMenu() {
-        let menu = document.getElementById("links");
-        if (menu.style.width === "0px") {
-          menu.style.width = "7rem";
-        } else {
-          menu.style.width = "0px";
-        }
-      }
-    </script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div class="container">
+
       <header>
         <h1>Bistro Bobux</h1>
       </header>
+
       <nav>
         <div id="links" style="width: 0px">
-          <a href="meny.html">Meny</a>
-          <a href="omoss.html">Om oss</a>
+          <ul>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="omoss.html">Om oss</a></li>
+          </ul>
         </div>
+
+        <!-- Öppna/stäng meny-->
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
           <i class="fa fa-bars"></i>
         </a>
       </nav>
+      <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="img/bobux2.jpeg">
+        </div>
+        <div class="slide fade">
+          <img src="img/bobux3.jpeg">
+        </div>
+        <div class="slide fade">
+          <img src="img/bobux4.jpeg">
+        </div>
+        <div class="slide fade">
+          <img src="img/bobu5.jpeg">
+        </div>
+
+        <!--Easter egg-->
+        <div class="slide fade">
+          <a href="https://msha.ke/lucas_guides/"><img src="img/bobux1.jpeg"></a>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

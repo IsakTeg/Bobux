@@ -6,35 +6,233 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/grid.css"/>
+    <script src="js/main.js"></script>
     <title>Meny Bobux</title>
   </head>
-
-  <body>
+<!-- För att länken ska hamna på toppen av sidan-->
+  <body id="toppen">
     <div class="container">
       <header>
         <h1 class="menyh1">À la carte</h1>
       </header>
+      <nav>
+        <div id="links" style="width: 0px">
+          <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="omoss.html">Om oss</a></li>
+          </ul>
+        </div>
+        <!-- Öppna/stäng meny-->
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
       <div class="meny">
-        <table class="table1">
+        <table class="table1 table">
+          <!--Här använde vi "table" för att skapa kolumner för mat respektive dess priser.
+          Tr (table row) innebär att det är samma rad och td (table data) är vanlig text. Varje td
+        hamnar i en egen kolumn-->
           <tr>
-            <td>Mat</td>
+            <td>1. Mat</td>
             <td>Pris</td>
           </tr>
           <tr>
-            <td>Mat</td>
+            <td>2. Mat</td>
             <td>Pris</td>
           </tr>
-          </table>
-          <table class="table2">
-            <tr>
-            <td>Mat</td>
+          <tr>
+            <td>3. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>4. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>5. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>6. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>7. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>8. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>9. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>10. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>11. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>12. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>13. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>14. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>15. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>16. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>17. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>18. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>19. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>20. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>21. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>22. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>23. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>24. Mat</td>
+            <td>Pris</td>
+          </tr>
+        </table>
+        <table class="table2 table">
+          <tr>
+            <td>25. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>26. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>27. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>28. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>29. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>30. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>31. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>32. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>33. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>34. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>35. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>36. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>37. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>38. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>39. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>40. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>41. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>42. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>43. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>44. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>45. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>46. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>47. Mat</td>
+            <td>Pris</td>
+          </tr>
+          <tr>
+            <td>48. Mat</td>
             <td>Pris</td>
           </tr>
         </table>
       </div>
-
+      <!--Länk för att ta sig till toppen av sidan-->
+      <a href="#toppen" class="lank">Till toppen</a>
     </div>
   </body>
 </html>
