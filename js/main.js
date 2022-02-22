@@ -11,6 +11,7 @@ window.onload = function() {
   showSlides(); //Börja slideshow när sidan laddar in
 }
 
+document.getElementById("links").style.width = "0px";
 var slide_index = 0;
 function showSlides() {
   var slides = document.getElementsByClassName("slide"); //Få alla slide element
